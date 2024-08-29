@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif ;
+    
+}
+body{
+    background-color: black;
+}
+.utilityBarMassage{
+    width: 100%;
+    height: 32px;
+    background-color: #E78A1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.utilityMassage{
+    height: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+p{
+    text-align: center;
+}
+/* Primary content */
+.primaryLogoBox{
+    height: 90px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    /* justify-content: center\\; */
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.ministryOfEducation{
+    width: 411px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    width: 130px;
+    height: 60px;
+    background-size: cover;
+    background-image: url("ministry-of-education-india-1\ \(1\).png");
+}
+.swayam{
+    width: 411px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 144px;
+    height: 60px;
+    background-image: url("swayam.png");
+    background-size: cover;
+
+}
+.iitMadras{
+    width: 411px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.iitMadrasLogo{
+    width: 60px;
+    height: 60px;
+    background-image: url("iit-madras-logo-1.png");
+    background-size: cover;
+
+}
+/*  */
+.navContain{
+
+    height: 50px;
+    background-color: #07bc0c;
+    /* background-color: #4cd964; */
+    padding:5px 20px 5px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navContainerBox{
+    height: 40px;
+    width: 1172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+    
+}
+.navItem{
+    width: 523px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    /* margin: 5px; */
+}
+.homeIcon{
+    width: 32.5px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutUs{
+    width: 82.34px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student{
+    width: 70px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.internships{
+    height: 34px;
+    width: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners{
+    height: 34px;
+    width: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event{
+    height: 34px;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+
+}
+.searchBox ,input {
+    width: 231px;
+    height: 31px;
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    
+}
+/*  */
+
+.searchIcon{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchIcon , i{
+    color: white;
+    font-weight: 1.6rem;
+
+}
+/* sing in */
+.signIn{
+ 
+
+}
+button{
+    width: 112px;
+    height: 40px;  
+    border-radius:2rem;
+    border: none;
+    font-weight: 600;
+    color: blue;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/* browser icon */
+.browserIcon{
+    width: 40px;
+    height: 30px;
+}
+.subIcon{
+    width: 40px;
+    height: 30px;
+    background-size: cover;
+    background-image: url("globIcon\ \(1\).svg");
+}
+/* hero */
+.heroSection{
+    /* color: white; */
+    height: 506px;
+    width: 100%;
+}
+.hero{
+    height: 506px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("hero.png");
+}
+.circleSpace{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 5px;
+}
+.btn1{
+    height: 15px;
+    width:  15px;
+    border-radius: 50%;
+    color: grey;
+}
+.btn2{
+    height:  15px;
+    width:  15px;
+    border-radius: 50%;
+    color: grey;
+}
+.btn3{
+    height:  15px;
+    width:  15px;
+    border-radius: 50%;
+    color: grey;
+}
+/* company */
